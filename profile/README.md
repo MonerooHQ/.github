@@ -24,6 +24,13 @@ If you’re running a custom PHP-based application, our PHP SDK allows for strai
 If you’re running a custom Laravel application, we offer an SDK to integrate Moneroo directly into your Laravel application. This SDK is tailored for Laravel and offers idiomatic ways to handle payments.
 - [Laravel SDK Documentation](https://docs.moneroo.io/sdks/laravel)
 
+More integrations are coming soon...
+You are welcome to create SDK for any other programming language.
+
+## 📚 Documentation
+You can find the Monero documentation [on the website](https://docs.moneroo.io).
+
+
 ## 🙋🏽 Need Help? 
 If you have any questions or need assistance, feel free to [contact us](https://moneroo.io/contact). We are always happy to help 🤗.
 
