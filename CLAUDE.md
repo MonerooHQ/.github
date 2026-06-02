@@ -2,6 +2,31 @@
 
 Guidance for Claude Code and other AI agents working in this repository.
 
+## Project overview
+
+This is the GitHub organization profile repository for MonerooHQ. It contains the public-facing `profile/README.md` that appears on the MonerooHQ GitHub organization page. Moneroo is a payment orchestration platform (an entity of Axa Zara) that provides unified access to mobile payment methods across Africa via a single API integration.
+
+## Tech stack
+
+- Markdown only — no build tooling, no runtime dependencies
+- GitHub org profile convention: `profile/README.md` is auto-rendered by GitHub on the organization's public page
+
+## Architecture
+
+Two files of substance:
+
+- `profile/README.md` — the org-level README rendered by GitHub on the MonerooHQ organization page; describes Moneroo's product, integrations (WooCommerce plugin, PHP SDK, Laravel SDK), documentation links, and hiring info
+- `README.md` — a bare one-line placeholder (`# .github`)
+
+There are no workflows, community health files (CONTRIBUTING, CODE_OF_CONDUCT, PULL_REQUEST_TEMPLATE, ISSUE_TEMPLATE), or shared configuration files present in the repository at this time.
+
+## Conventions
+
+- All content is Markdown; keep language concise and professional, consistent with Axa Zara brand tone
+- Integration entries in `profile/README.md` follow a pattern: badge image, short description, link to `docs.moneroo.io`
+- The `.gitignore` contains only IntelliJ IDE artifacts (`.idea`, `*.iml`) — no other tooling is configured
+- When adding GitHub community health files (e.g. `CONTRIBUTING.md`, issue templates, PR templates), place them at the repository root; GitHub will apply them org-wide to repositories that do not have their own
+
 ## Git Conventions
 
 ### 1. Branch names
